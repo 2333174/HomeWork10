@@ -1,0 +1,10 @@
+D:\ComputerWork\C#\HomeWork7\Form3\bin\Debug\Form3.exe.config
+D:\ComputerWork\C#\HomeWork7\Form3\bin\Debug\Form3.exe
+D:\ComputerWork\C#\HomeWork7\Form3\bin\Debug\Form3.pdb
+D:\ComputerWork\C#\HomeWork7\Form3\obj\Debug\Form3.csprojAssemblyReference.cache
+D:\ComputerWork\C#\HomeWork7\Form3\obj\Debug\Form3.Form1.resources
+D:\ComputerWork\C#\HomeWork7\Form3\obj\Debug\Form3.Properties.Resources.resources
+D:\ComputerWork\C#\HomeWork7\Form3\obj\Debug\Form3.csproj.GenerateResource.cache
+D:\ComputerWork\C#\HomeWork7\Form3\obj\Debug\Form3.csproj.CoreCompileInputs.cache
+D:\ComputerWork\C#\HomeWork7\Form3\obj\Debug\Form3.exe
+D:\ComputerWork\C#\HomeWork7\Form3\obj\Debug\Form3.pdb

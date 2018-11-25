@@ -1,0 +1,10 @@
+D:\ComputerWork\C#\HomeWork8\Error\obj\Debug\Error.csprojAssemblyReference.cache
+D:\ComputerWork\C#\HomeWork8\Error\obj\Debug\Error.Form1.resources
+D:\ComputerWork\C#\HomeWork8\Error\obj\Debug\Error.Properties.Resources.resources
+D:\ComputerWork\C#\HomeWork8\Error\obj\Debug\Error.csproj.GenerateResource.cache
+D:\ComputerWork\C#\HomeWork8\Error\obj\Debug\Error.csproj.CoreCompileInputs.cache
+D:\ComputerWork\C#\HomeWork8\Error\bin\Debug\Error.exe.config
+D:\ComputerWork\C#\HomeWork8\Error\bin\Debug\Error.exe
+D:\ComputerWork\C#\HomeWork8\Error\bin\Debug\Error.pdb
+D:\ComputerWork\C#\HomeWork8\Error\obj\Debug\Error.exe
+D:\ComputerWork\C#\HomeWork8\Error\obj\Debug\Error.pdb
