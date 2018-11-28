@@ -19,7 +19,7 @@ namespace WindowsForms
         public Form1()
         {
             InitializeComponent();
-            
+            this.orderServiceBindingSource1.DataSource = new BindingList<Order>(b.orderList);
 
 
         }

@@ -24,10 +24,10 @@ namespace Sourse
     }
     public class Order
     {
-        [Key]
         public string orderNum { get; set; }
         public string orderName { get; set; }
         public string orderClient { get; set; }
+        [Key]
         public string ClientPhone { get; set; }
         public string goodName { get; set; }
         public string goodPrice { get; set; }
@@ -51,6 +51,14 @@ namespace Sourse
     {
         int count = 0;
         public List<Order> orderList = new List<Order>();
+        public OrderService()
+        {
+            using (var db = new OrderDB())
+            {
+                var orderList1 = from o in db.OrderList select o;
+                orderList = orderList1.ToList();
+            }
+        }
         public void addOrder(Order b)
         {
             orderList.Add(b);
@@ -130,18 +138,18 @@ namespace Sourse
                 case 0:
                     using (var db = new OrderDB())
                     {
-                        return db.OrderList.Where(o => o.orderNum == s);
+                        return db.OrderList.Where(o => o.orderNum == s).ToList();
                     }
 
                 case 1:
                     using (var db = new OrderDB())
                     {
-                        return db.OrderList.Where(o => o.orderClient == s);
+                        return db.OrderList.Where(o => o.orderClient == s).ToList();
                     }
                 default:
                     using (var db = new OrderDB())
                     {
-                        return db.OrderList.Where(o => o.tot>10000);
+                        return db.OrderList.Where(o => o.tot>10000).ToList();
                     }
 
             }
